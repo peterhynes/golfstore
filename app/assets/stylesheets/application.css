@@ -1,4 +1,7 @@
 .headSec {
+  background:url("/assets/Site/golfcourse.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   min-height: 100px;
   background-color: #b3e0ff;
   width: 100%;
@@ -36,4 +39,20 @@ li a {
   border: 3px solid #b3e0ff;
   padding: 10px;
   text-align: center;
+}
+
+.foot {
+  min-height: 80px;
+  background-color: #b3e0ff;
+  width: 100%;
+  margin-top: 10px;
+  overflow: auto;
+}
+
+.container {
+  background: url("/assets/Site/clubhead.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  width: 100%;
+  min-height: 700px;
 }
